@@ -1,0 +1,170 @@
+{"0": {
+    "doc": "R packages",
+    "title": "About R",
+    "content": "R is a heavily Statistics focused programming language and is particularly common when statistical analysis is a core element of your work. Originally built with statisticians in mind, R does very well for visualising statistical concepts. It is a procedural language and may have a lower onboarding curve for some beginners who have less experience with programming because of RStudio, a relatively intiutive tool for working with R. ",
+    "url": "http://localhost:4000/content/R.html#about-r",
+    "relUrl": "/content/R.html#about-r"
+  },"1": {
+    "doc": "R packages",
+    "title": "Visualization packages",
+    "content": ". | ggplot2 - grammar of graphics . | Not for higher complexity; best for smaller | Grammar of Graphics breaks data visualization into semantic concepts | Think of this as “layering” parts of a visualization | This is one of the most popular R packages and was intended as a replacement for defaults included in R | ggplot2 allows users to be modular in how they chart and how they load information into a chart. What this means is that you can adjust at a high level of granularity. | . | patchwork - presenting ggplot2 charts next to each other . | Literally a tool for patching them together nicely | . | ggiraph . | Adds dynamic components onto ggplot2 graphs | Tooltips, javascript actions on click, and a way to reference a specific element of the plot | Allows export to SVG as well, just extends ggplot2 and htmlwidgets | . | Plotly . | Plot.ly is essentially an online version of ggplot2 and has since become an open source tool that can be used through R, Python, and Julia | It’s incredibly powerful and has chart types that are not necessarily available to you elsewhere | Has a relatively new component called “dash” for creating dashboards, generally references as more of a Python tool but can be used with R and Julia as well | . | htmlwidgets . | A way to use JavaScript visualization libraries at the R console, without needing to know Javascript – an example of a useful JS lib you are likely to hear about is D3.js | You can embed widgets in R Markdown documents and Shiny web applications | Can handle larger datasets depending on how you’re using it | . | dygraphs . | Also brings javascript into R | Core benefits of dygraphs is that it is designed with very large datasets in mind and is interactive out of the box | For instance some forms of interactivity are added on to packages like ggplot2 but in this case they’re built in | . | . While we aren’t going into maps in this session a few packages to be aware of: . | mapboxr - MapBox in R | leaflet - package for working with leaflet.js in R | geofacet - extends ggplot2 to work with geodata | . ",
+    "url": "http://localhost:4000/content/R.html#visualization-packages",
+    "relUrl": "/content/R.html#visualization-packages"
+  },"2": {
+    "doc": "R packages",
+    "title": "Bringing it all together into a dashboard",
+    "content": ". | flexdashboard . | Can be used with RMarkdown or Shiny | . | RMarkdown . | RMarkdown can be a component of a lot of different things, very flexible | RNotebooks - more interactive RMarkdown files and by default possible with all RMarkdown files created via RStudio | Example RMarkdown dashboards | . | RShiny . | Robust web framework for developing apps, not just dashboards | Relatively easy and intuitive compared to other alternatives because it includes more structural elements and styling out of the box; can be a bit harder to customize as a result | While very large apps can be a bit laggy but RShiny is best when working with data that you can’t fully expose or need to store in a database | Example RShiny Apps | . | . ",
+    "url": "http://localhost:4000/content/R.html#bringing-it-all-together-into-a-dashboard",
+    "relUrl": "/content/R.html#bringing-it-all-together-into-a-dashboard"
+  },"3": {
+    "doc": "R packages",
+    "title": "A note about working with R",
+    "content": "While you can work with R in a number of ways the most common tool is RStudio which is a robust multi-purpose programming environment built around R. RStudio . | Open Source edition is free for local access | Many features for workflow management | . RStudio Server . | Allows you to edit in the cloud which can save on RAM. | . You can also use RStudio in the cloud for free for smaller tasks. ",
+    "url": "http://localhost:4000/content/R.html#a-note-about-working-with-r",
+    "relUrl": "/content/R.html#a-note-about-working-with-r"
+  },"4": {
+    "doc": "R packages",
+    "title": "R packages",
+    "content": " ",
+    "url": "http://localhost:4000/content/R.html",
+    "relUrl": "/content/R.html"
+  },"5": {
+    "doc": "Acknowledgements",
+    "title": "Acknowledgements",
+    "content": "Site template adapted from the just-the-docs Jekyll template created by Patrick Marsceil and available under the MIT License. ",
+    "url": "http://localhost:4000/acknowledgements.html",
+    "relUrl": "/acknowledgements.html"
+  },"6": {
+    "doc": "Outline",
+    "title": "Dashboard tools in R and Python",
+    "content": "R or Python: which is better for your data dashboards? This session will compare R and Python programming languages with a focus on building dashboards . ",
+    "url": "http://localhost:4000/#dashboard-tools-in-r-and-python",
+    "relUrl": "/#dashboard-tools-in-r-and-python"
+  },"7": {
+    "doc": "Outline",
+    "title": "Learning objectives",
+    "content": "At the end of this workshop, you will be able to: . | Articulate what kinds of questions to ask when deciding on a tool | List common R packages and Python libraries for visualization | Identify an approach to creating a dashboard in each language | . ",
+    "url": "http://localhost:4000/#learning-objectives",
+    "relUrl": "/#learning-objectives"
+  },"8": {
+    "doc": "Outline",
+    "title": "Schedule",
+    "content": "| 0:00 | Welcome and using Zoom | . | 0:05 | Introduction | . | 0:35 | R packages | . | 0:55 | Python libraries | . | 1:15 | Wrap-up and Discussion | . ",
+    "url": "http://localhost:4000/#schedule",
+    "relUrl": "/#schedule"
+  },"9": {
+    "doc": "Outline",
+    "title": "Resources",
+    "content": ". | Slides | . ",
+    "url": "http://localhost:4000/#resources",
+    "relUrl": "/#resources"
+  },"10": {
+    "doc": "Outline",
+    "title": "Outline",
+    "content": " ",
+    "url": "http://localhost:4000/",
+    "relUrl": "/"
+  },"11": {
+    "doc": "Introduction",
+    "title": "Introduction",
+    "content": "Communicating with data is an important element of many different kinds of projects. Whether your work is rooted in emerging disciplines such as Data Science or traditionally low-tech disciplines like the Humanities you may come across the need to represent information. There are many categories of tools that this workshop leaves out but some of the core ideas around choosing the right took for the job apply across the board. In this discussion we are going to focus on two programming languages that are commonly used in academic work: Python and R. Both are open source and have strong communities behind them. Check out our Introduction to Data Visualisation workshop for more on Tableau. Why use a programming language over a visual tool? Granular control of your process and output and ability to share on the exact steps you took easily. This is very important for the longevity of scholarly outputs. While some definitions of reproducibility or replicability may not apply to all disciplines equally the notion of transparency of the research process, particularly when computational methods are applied to data, is an important consideration across the board. Learn more about reproducibility and replicability of scholarly outputs through the Open Research unit in the Program for Open Scholarship in Education. Ultimately the best tool to invest time into learning is the one that works for you. That might mean that it’s the tool that is preferred in your discipline, the tool you have more familiarity with, the one that comes with more examples for a specific application you want to use it for. Finally the most important question: what do you enjoy working with the most? . Explore this infographic from datacamp . ",
+    "url": "http://localhost:4000/content/introduction.html",
+    "relUrl": "/content/introduction.html"
+  },"12": {
+    "doc": "Introduction",
+    "title": "Visualising information with dashboards",
+    "content": "Regardless of the tool you use, planning visualising information with dashboards requires that you answer a few basic questions. | Which types of visualisations are appropriate for your data? | What level of interactivity is needed? | What are the skillsets on your team? Is there time for upskilling? | Who are you communicating to? | What is the long term plan for the dashboard? Does it need to be regularly updated? | . Keith Ingersoll delivered a talk titled “Jupyter, R Shiny, and the Data Science Web App Landscape” at PyData in 2017 which concisely summarises technical considerations. | Is your dashboard relatively small? Can it fit in a browser? | Is what you need actually a presentation? | Does it need a back-end? i.e. data is more complex and stored in a database or it’s not possible to expose all of the data being used to viewers. | . In the academic context it is especially important to consider technical debt (any form of ongoing maintenance that is needed) and reproducibility for future scholars. ",
+    "url": "http://localhost:4000/content/introduction.html#visualising-information-with-dashboards",
+    "relUrl": "/content/introduction.html#visualising-information-with-dashboards"
+  },"13": {
+    "doc": "Introduction",
+    "title": "Structural considerations",
+    "content": "Dashboards all have a similar base structure including “inputs” and “outputs” but different tools may approach these elements differently. | What kinds of inputs do you need? At what level of interactivity? | What kinds of visuals are most important? | . For more on dashboards in general take a look at our Introduction to Dashboards with Tableau workshop. Finally, as you answer these questions consider whether the tools that seem to fit the bill are in good standing. | Is there a strong community around them | Have they been updated recently and are they under ongoing maintenance | . ",
+    "url": "http://localhost:4000/content/introduction.html#structural-considerations",
+    "relUrl": "/content/introduction.html#structural-considerations"
+  },"14": {
+    "doc": "Land acknowledgement",
+    "title": "Land acknowledgement",
+    "content": "Before beginning the workshop, we’d like to acknowledge the indigenous lands where we are located. UBC Vancouver is located on the traditional, ancestral, and unceded territory of the xʷməθkʷəy̓əm (Musqueam), səl̓ilwətaɁɬ təməxʷ (Tsleil-Waututh), Stz’uminus, S’ólh Téméxw (Stó:lō), Skwxwú7mesh-ulh Temíx̱w (Squamish), and Coast Salish peoples. Please take a moment to explore native-land.ca so that you can visualize the indigenous territories, languages, and treaties in your area. ",
+    "url": "http://localhost:4000/land-acknowledgement.html",
+    "relUrl": "/land-acknowledgement.html"
+  },"15": {
+    "doc": "Participating online",
+    "title": "Participating online",
+    "content": "Active participation enlivens the session with other voices and perspectives. We encourage you to engage with instructors and with each other. Microphones are muted by default to improve audio quality and recording is disabled to preserve participant privacy. The Zoom toolbar provides several ways to be part of the conversation: . ",
+    "url": "http://localhost:4000/online.html",
+    "relUrl": "/online.html"
+  },"16": {
+    "doc": "Participating online",
+    "title": "Reactions menu",
+    "content": "Open the Reactions menu and click an icon to communicate with the instructors. Use this to answer yes/no questions or to raise your hand when instructors invite you to ask a question, comment, or share your screen. ",
+    "url": "http://localhost:4000/online.html#reactions-menu",
+    "relUrl": "/online.html#reactions-menu"
+  },"17": {
+    "doc": "Participating online",
+    "title": "Chat window",
+    "content": "Use the Chat window to comment or ask a question at any time. Instructors will do their best to respond, sometimes waiting for a break in the lesson to do so. The Chat window is a good place to report problems with your audio connection. Instructors may also use it to share links to material mentioned in the session. ",
+    "url": "http://localhost:4000/online.html#chat-window",
+    "relUrl": "/online.html#chat-window"
+  },"18": {
+    "doc": "Participating online",
+    "title": "Share your screen",
+    "content": "In some cases instructors may invite you to share your screen. Raise your hand to indicate that you’re ready to share. When called upon click Share screen, select a window to display, and click Share. ",
+    "url": "http://localhost:4000/online.html#share-your-screen",
+    "relUrl": "/online.html#share-your-screen"
+  },"19": {
+    "doc": "Participating online",
+    "title": "Contribute to the Whiteboard",
+    "content": "The Whiteboard is a collaborative space that everyone can annotate with drawings and text. When the whiteboard is shared click View options and select Annotate. This opens the annotation toolbar. Drawings and text you add to the screen will be visible to everyone in the session or breakout room. ",
+    "url": "http://localhost:4000/online.html#contribute-to-the-whiteboard",
+    "relUrl": "/online.html#contribute-to-the-whiteboard"
+  },"20": {
+    "doc": "Python libraries",
+    "title": "About Python",
+    "content": "Python is a relatively beginner-friendly programming language because it uses readable naming schemes and a narrative flow. It is a general purpose programming language which might be beneficial if you’d like to be able to do much more with it than your project needs. It has a broad scope and beginner friendly doesn’t mean beginner friendly for a specific use-case. It is and object oriented language which helps with modularity (i.e. individual ideas in what you are building can be separated out and reused) and very readable by humans. ",
+    "url": "http://localhost:4000/content/python.html#about-python",
+    "relUrl": "/content/python.html#about-python"
+  },"21": {
+    "doc": "Python libraries",
+    "title": "Visualization libraries",
+    "content": ". | Matplotlib . | Very strong community, one of the first Python viz libraries | Similar to the proprietary MatLab | Matplotlib is useful to know because it is incorporated into a lot of other tools; if you want to customize your visualizations using other tools knowing how matplotlib works can help | . | Ggplot . | Based on the “grammar of graphics” and essentially ggplot2 in R thought it’s not a one to one replica | Following grammar of graphics principles it lets you layer components to add a plot; can start with axes, add points, add trendline | Works with Pandas so storing data in a dataframe is important | . | Plotly . | Essentailly an online interactive version of ggplot2 | Originally an online platform for data viz but can be called on via Python | Offers charts not present in other libraries like dendograms | . | Pandas . | A wrapper for Matplotlib | Designed to create modern, stylized, visualizations out of the box with features that help make interactive visualizations for the web | . | Seaborn . | Also a wrapper for Matplotlib, designed for statistical data visualisation | Smaller number of lines of code needed than some libraries to get a similar visual output | Also has modern design features out of the box but you do need to know Matplotlib for significant customization | . | Bokeh . | Based on grammar of graphics but purely in Python (i.e. not imitating ggplot2 from R) | Supports streaming and real-time data | Can output visualisations as JSON objects, html objects, documents easily | Three interfaces for different levels of complexity . | at the lowest level it can spin up charts quickly with styling out of the box | the middle level is similar to matplotlib in that there are out of the box feature but you can customise it | the lowest level is highly granular and asks you to define every single element | . | . | Pygal . | Interactive plots that can be embedded into browsers | For smaller datasets that can live in a browser otherwise you risk slow | Similar to other libraries it has modern built-in styles | . | . ",
+    "url": "http://localhost:4000/content/python.html#visualization-libraries",
+    "relUrl": "/content/python.html#visualization-libraries"
+  },"22": {
+    "doc": "Python libraries",
+    "title": "Bringing it all together into a dashboard",
+    "content": ". | Python in a Jupyter notebook or a Collab notebook (Google based) . | Plot.ly Dash . | Interactive, web-based dashboards for Python (also available in R and Julia) | Plot.ly is a powerful graphics library in Python | Dash is a purpose built tool to create | Mix of Flask, React.js, and Plotly.js | Includes implementations for R and Julia | Examples of Plot.ly Dash | . | . If you focus on only one piece of Python for working with dashboards, Plot.ly and Plotly Dash are a great place to start. ",
+    "url": "http://localhost:4000/content/python.html#bringing-it-all-together-into-a-dashboard",
+    "relUrl": "/content/python.html#bringing-it-all-together-into-a-dashboard"
+  },"23": {
+    "doc": "Python libraries",
+    "title": "A note about working with Python",
+    "content": ". | Computational notebooks such as: . | Jupyter and Jupyter Labs . | UBC Syzygy - UBC-hosted Jupyter notebooks | Google Collab notebooks | . | . | Anaconda - a data science platform that acts as an environment manager for Python; great for reproducibility as it has built in features that make it simple to provision and share the same environment with others. | PyCharm - purely a development environment intended for working with python. | . ",
+    "url": "http://localhost:4000/content/python.html#a-note-about-working-with-python",
+    "relUrl": "/content/python.html#a-note-about-working-with-python"
+  },"24": {
+    "doc": "Python libraries",
+    "title": "Python libraries",
+    "content": " ",
+    "url": "http://localhost:4000/content/python.html",
+    "relUrl": "/content/python.html"
+  },"25": {
+    "doc": "Resources",
+    "title": "Further reading and watching",
+    "content": ". | 2017 PyData talk - Keith Ingersoll - Jupyter, R Shiny, and the Data Science Web App Landscape | Creating Python Dashboards: Dash vs Bokeh | Python Dash and R Shiny which to choose | R vs Python for Data Analysis — An Objective Comparison | Run down of R graphing tools | . ",
+    "url": "http://localhost:4000/content/resources.html#further-reading-and-watching",
+    "relUrl": "/content/resources.html#further-reading-and-watching"
+  },"26": {
+    "doc": "Resources",
+    "title": "Tools at UBC",
+    "content": ". | The UBC Library Digital Scholarship Lab is accessible remotely for big tasks. | UBC Syzygy - UBC hosted Jupyter notebooks | . ",
+    "url": "http://localhost:4000/content/resources.html#tools-at-ubc",
+    "relUrl": "/content/resources.html#tools-at-ubc"
+  },"27": {
+    "doc": "Resources",
+    "title": "Resources",
+    "content": " ",
+    "url": "http://localhost:4000/content/resources.html",
+    "relUrl": "/content/resources.html"
+  }
+}

@@ -1,0 +1,45 @@
+I"Ž<h2 id="dashboard-tools-in-r-and-python">Dashboard Tools in R and Python</h2>
+
+<p>R or Python: which is better for your data dashboards? This session will compare R and Python programming languages with a focus on building dashboards</p>
+
+<h2 id="learning-objectives">Learning objectives</h2>
+
+<p>At the end of this workshop, you will be able to:</p>
+<ol>
+  <li>Articulate what kinds of questions to ask when deciding on a tool</li>
+  <li>List common R packages and Python libraries for visualization</li>
+  <li>Identify an approach to creating a dashboard in each language</li>
+</ol>
+
+<h2 id="schedule">Schedule</h2>
+
+<table>
+  <tbody>
+    <tr>
+      <td>0:00</td>
+      <td>Welcome and using Zoom</td>
+    </tr>
+    <tr>
+      <td>0:05</td>
+      <td>Introduction</td>
+    </tr>
+    <tr>
+      <td>0:35</td>
+      <td>R packages</td>
+    </tr>
+    <tr>
+      <td>0:55</td>
+      <td>Python libraries</td>
+    </tr>
+    <tr>
+      <td>1:15</td>
+      <td>Wrap-up and Discussion</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="resources">Resources</h2>
+<ul>
+  <li><a href="https://ubc-library-rc.github.io/dashboard-tools/slides/introduction.html">Slides</a></li>
+</ul>
+:ET

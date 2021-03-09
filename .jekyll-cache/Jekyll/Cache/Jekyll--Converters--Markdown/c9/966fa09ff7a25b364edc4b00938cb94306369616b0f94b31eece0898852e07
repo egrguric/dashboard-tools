@@ -1,0 +1,58 @@
+I"h<h1 id="introduction">Introduction</h1>
+<p>Communicating with data is an important element of many different kinds of projects. Whether your work is rooted in emerging disciplines such as Data Science or traditionally low-tech disciplines like the Humanities you may come across the need to represent information.</p>
+
+<p>There are many categories of tools that this workshop leaves out but some of the core ideas around choosing the right took for the job apply across the board.</p>
+
+<p>In this discussion we are going to focus on two programming languages that are commonly used in academic work: Python and R. Both are open source and have strong communities behind them.</p>
+
+<p class="note">Check out our <a href="https://ubc-library-rc.github.io/intro-data-viz/">Introduction to Data Visualisation</a> workshop for more on Tableau.</p>
+
+<p>Why use a programming language over a visual tool? Granular control of your process and output and ability to share on the exact steps you took easily. This is very important for the longevity of scholarly outputs. While some definitions of reproducibility or replicability may not apply to all disciplines equally the notion of transparency of the research process, particularly when computational methods are applied to data, is an important consideration across the board.</p>
+
+<p class="note">Learn more about reproducibility and replicability of scholarly outputs through the <a href="https://pose.open.ubc.ca/open-research/">Open Research unit</a> in the Program for Open Scholarship in Education.</p>
+
+<p>Ultimately the best tool to invest time into learning is the one that works for you. That might mean that it’s the tool that is preferred in your discipline, the tool you have more familiarity with, the one that comes with more examples for a specific application you want to use it for.</p>
+
+<p>Finally the most important question: what do you enjoy working with the most?</p>
+
+<p class="note"><a href="https://www.datacamp.com/community/tutorials/r-or-python-for-data-analysis">Explore this infographic from datacamp</a></p>
+
+<h1 id="visualising-information-with-dashboards">Visualising information with dashboards</h1>
+<p>Regardless of the tool you use, planning visualising information with dashboards requires that you answer a few basic questions.</p>
+
+<ul>
+  <li>Which types of visualisations are appropriate for your data?</li>
+  <li>What level of interactivity is needed?</li>
+  <li>What are the skillsets on your team? Is there time for upskilling?</li>
+  <li>Who are you communicating to?</li>
+  <li>What is the long term plan for the dashboard? Does it need to be regularly updated?</li>
+</ul>
+
+<p>Keith Ingersoll delivered a talk titled “Jupyter, R Shiny, and the Data Science Web App Landscape” at <a href="https://www.youtube.com/watch?v=1DKklYElQbU">PyData in 2017</a> which concisely summarises technical considerations.</p>
+
+<ul>
+  <li>Is your dashboard relatively small? Can it fit in a browser?</li>
+  <li>Is what you need actually a presentation?</li>
+  <li>Does it need a back-end? i.e. data is more complex and stored in a database or it’s not possible to expose all of the data being used to viewers.</li>
+</ul>
+
+<p>In the academic context it is especially important to consider technical debt (any form of ongoing maintenance that is needed) and reproducibility for future scholars.</p>
+
+<h2 id="structural-considerations">Structural considerations</h2>
+
+<p>Dashboards all have a similar base structure including “inputs” and “outputs” but different tools may approach these elements differently.</p>
+
+<ul>
+  <li>What kinds of inputs do you need? At what level of interactivity?</li>
+  <li>What kinds of visuals are most important?</li>
+</ul>
+
+<p class="note">For more on dashboards in general take a look at our <a href="https://ubc-library-rc.github.io/tableau-dashboard/">Introduction to Dashboards with Tableau</a> workshop.</p>
+
+<p>Finally, as you answer these questions consider whether the tools that seem to fit the bill are in good standing.</p>
+
+<ul>
+  <li>Is there a strong community around them</li>
+  <li>Have they been updated recently and are they under ongoing maintenance</li>
+</ul>
+:ET

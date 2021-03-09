@@ -1,0 +1,102 @@
+I"�<h1 id="about-python">About Python</h1>
+<p>Python is a relatively beginner-friendly programming language because it uses readable naming schemes and a narrative flow. It is a general purpose programming language which might be beneficial if you’d like to be able to do much more with it than your project needs. It has a broad scope and beginner friendly doesn’t mean beginner friendly for a specific use-case. It is and object oriented language which helps with modularity (i.e. individual ideas in what you are building can be separated out and reused) and very readable by humans.</p>
+
+<h2 id="visualization-libraries">Visualization libraries</h2>
+<ul>
+  <li><a href="https://matplotlib.org/">Matplotlib</a>
+    <ul>
+      <li>Very strong community, one of the first Python viz libraries</li>
+      <li>Similar to the proprietary MatLab</li>
+      <li>Matplotlib is useful to know because it is incorporated into a lot of other tools; if you want to customize your visualizations using other tools knowing how matplotlib works can help</li>
+    </ul>
+  </li>
+  <li><a href="https://pypi.org/project/ggplot/">Ggplot</a>
+    <ul>
+      <li>Based on the “grammar of graphics” and essentially ggplot2 in R thought it’s not a one to one replica</li>
+      <li>Following grammar of graphics principles it lets you layer components to add a plot; can start with axes, add points, add trendline</li>
+      <li>Works with Pandas so storing data in a dataframe is important</li>
+    </ul>
+  </li>
+  <li><a href="https://plotly.com/python/">Plotly</a>
+    <ul>
+      <li>Essentailly an online interactive version of ggplot2</li>
+      <li>Originally an online platform for data viz but can be called on via Python</li>
+      <li>Offers charts not present in other libraries like dendograms</li>
+    </ul>
+  </li>
+  <li><a href="https://pandas.pydata.org/">Pandas</a>
+    <ul>
+      <li>A wrapper for Matplotlib</li>
+      <li>Designed to create modern, stylized, visualizations out of the box with features that help make interactive visualizations for the web</li>
+    </ul>
+  </li>
+  <li><a href="https://seaborn.pydata.org/">Seaborn</a>
+    <ul>
+      <li>Also a wrapper for Matplotlib, designed for statistical data visualisation</li>
+      <li>Smaller number of lines of code needed than some libraries to get a similar visual output</li>
+      <li>Also has modern design features out of the box but you do need to know Matplotlib for significant customization</li>
+    </ul>
+  </li>
+  <li><a href="https://docs.bokeh.org/en/latest/index.html">Bokeh</a>
+    <ul>
+      <li>Based on grammar of graphics but purely in Python (i.e. not imitating ggplot2 from R)</li>
+      <li>Supports streaming and real-time data</li>
+      <li>Can output visualisations as JSON objects, html objects, documents easily</li>
+      <li>Three interfaces for different levels of complexity
+        <ul>
+          <li>at the lowest level it can spin up charts quickly with styling out of the box</li>
+          <li>the middle level is similar to matplotlib in that there are out of the box feature but you can customise it</li>
+          <li>the lowest level is highly granular and asks you to define every single element</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="http://www.pygal.org/en/stable/">Pygal</a>
+    <ul>
+      <li>Interactive plots that can be embedded into browsers</li>
+      <li>For smaller datasets that can live in a browser otherwise you risk slow</li>
+      <li>Similar to other libraries it has modern built-in styles</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bringing-it-all-together-into-a-dashboard">Bringing it all together into a dashboard</h2>
+
+<ul>
+  <li>
+    <p>Python in a Jupyter notebook or a Collab notebook (Google based)</p>
+  </li>
+  <li>
+    <p><a href="https://plotly.com/dash/">Plot.ly Dash</a></p>
+    <ul>
+      <li>Interactive, web-based dashboards for Python (also available in R and Julia)</li>
+      <li>Plot.ly is a powerful graphics library in Python</li>
+      <li>Dash is a purpose built tool to create</li>
+      <li>Mix of Flask, React.js, and Plotly.js</li>
+      <li>Includes implementations for R and Julia</li>
+      <li><a href="https://dash-gallery.plotly.host/Portal/">Examples of Plot.ly Dash</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>If you focus on only one piece of Python for working with dashboards, Plot.ly and Plotly Dash are a great place to start.</p>
+
+<h2 id="a-note-about-working-with-python">A note about working with Python</h2>
+
+<ul>
+  <li>Computational notebooks such as:
+    <ul>
+      <li><a href="https://jupyter.org/">Jupyter</a> and Jupyter Labs
+        <ul>
+          <li><a href="https://ubc.syzygy.ca/">UBC Syzygy</a> - UBC-hosted Jupyter notebooks</li>
+          <li><a href="https://colab.research.google.com/notebooks/intro.ipynb">Google Collab notebooks</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>
+    <p><a href="https://www.anaconda.com/products/individual">Anaconda</a> - a data science platform that acts as an environment manager for Python; great for reproducibility as it has built in features that make it simple to provision and share the same environment with others.</p>
+  </li>
+  <li><a href="https://www.jetbrains.com/pycharm/">PyCharm</a> - purely a development environment intended for working with python.</li>
+</ul>
+:ET
