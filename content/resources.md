@@ -8,7 +8,7 @@ nav_order: 10
 
 * 2017 PyData talk - [Keith Ingersoll - Jupyter, R Shiny, and the Data Science Web App Landscape](https://www.youtube.com/watch?v=1DKklYElQbU)
 * [Creating Python Dashboards: Dash vs Bokeh](https://www.activestate.com/blog/dash-vs-bokeh/)
-* [Python Dash and R Shiny which to choose](https://towardsdatascience.com/python-dash-vs-r-shiny-which-to-choose-in-2021-and-beyond-6a25c90b2811)
+* [Python Dash and R Shiny which to choose](https://appsilon.com/dash-vs-shiny/)
 * [R vs Python for Data Analysis — An Objective Comparison](https://www.dataquest.io/blog/python-vs-r/)
 * [Run down of R graphing tools](https://www.r-graph-gallery.com/all-graphs.html)
 
